@@ -13,21 +13,22 @@
   <nav>
     <div class="nav-wrapper">
      <a href="index.html" class="brand-logo">MAO LAMARTINE</a>
-      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="live.html">live</a></li>
-        <li><a href="rack.html">VCV Rack</a></li>
-      </ul>
-    </div>
-  </nav>
+     <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+     <ul class="right hide-on-med-and-down">
+      <li><a href="live.html">Live Ableton</a></li>
+      <li><a href="rack.html">VCV Rack</a></li>
+    </ul>
+  </div>
+</nav>
+</div>
 
-  <ul class="sidenav" id="mobile-demo">
-       <li><a href="live.html">live</a></li>
-        <li><a href="rack.html">VCV Rack</a></li>
-  </ul>
-	</div>	
+<ul class="sidenav" id="mobile-demo">
+ <li><a href="live.html">Live Ableton</a></li>
+ <li><a href="rack.html">VCV Rack</a></li>
+</ul>
 
- <!-- Le contenu -->
+
+<!-- Le contenu -->
 
 <div class="container">
 
@@ -40,13 +41,13 @@
           <p>Dans ce tutoriel je vous explique comment installer le logiciel sur votre ordinateur</p>
         </div>
         <div class="card-action">
-          <a href="installation.html">C'est parti</a>
+          <a href="installation.html">C'est parti!</a>
         </div>
       </div>
     </div>
   </div>
 
-    <div class="row">
+  <div class="row">
     <div class="col s12 m6">
       <div class="card blue-grey darken-1">
         <div class="card-content white-text">
@@ -55,29 +56,29 @@
           pour faire fonctionner Live Ableton correctement</p>
         </div>
         <div class="card-action">
-             <a href="parametre.html">C'est parti</a>
-        </div>
+         <a href="parametre.html">C'est parti!</a>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <div class="row">
+  <div class="col s12 m6">
+    <div class="card blue-grey darken-1">
+      <div class="card-content white-text">
+        <span class="card-title">#3 L'interface</span>
+        <p>Je vous présente rapidement l'interface du logiciel, les différentes fenêtres et leur fonctions.</p>
+      </div>
+      <div class="card-action">
+        <a href="interface.html">C'est parti!</a>
+
       </div>
     </div>
   </div>
-
-    <div class="row">
-    <div class="col s12 m6">
-      <div class="card blue-grey darken-1">
-        <div class="card-content white-text">
-          <span class="card-title">#3 L'interface</span>
-          <p>Je vous présente rapidement l'interface du logiciel, les différentes fenêtres et leur fonctions.</p>
-        </div>
-        <div class="card-action">
-            <a href="interface.html">C'est parti</a>
-       
-        </div>
-      </div>
-    </div>
-  </div>
+</div>
 
 
-   
+
 
 
 
@@ -85,8 +86,13 @@
 
 
 </div>
-    <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script> 
+ $(document).ready(function(){
+  $('.sidenav').sidenav();
+});
+</script>
 </body>
 </html>

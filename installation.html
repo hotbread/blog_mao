@@ -2,40 +2,42 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 	<link rel="stylesheet" href="style.css">
 	<title>Installation</title>
 </head>
 <body>
- <div class="navbar-fixed">
-  <nav>
-    <div class="nav-wrapper">
- <a href="index.html" class="brand-logo">MAO LAMARTINE</a>
-      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="live.html">live</a></li>
-        <li><a href="rack.html">VCV Rack</a></li>
-      </ul>
-    </div>
-  </nav>
+	<div class="navbar-fixed">
+		<nav>
+			<div class="nav-wrapper">
+				<a href="index.html" class="brand-logo">MAO LAMARTINE</a>
+				<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="live.html">Live Ableton</a></li>
+					<li><a href="rack.html">VCV Rack</a></li>
+				</ul>
+			</div>
+		</nav>
+		</div>
 
-  <ul class="sidenav" id="mobile-demo">
-       <li><a href="live.html">live</a></li>
-        <li><a href="rack.html">VCV Rack</a></li>
-  </ul>
+		<ul class="sidenav" id="mobile-demo">
+			<li><a href="live.html">Live Ableton</a></li>
+			<li><a href="rack.html">VCV Rack</a></li>
+		</ul>
+	
+	<div class="container">
+		<h4>L'installation #1</h4>
 	</div>
-<div class="container">
-	<h4>L'installation #1</h4>
-</div>
 
-<div class="container" style=" margin: 0 auto; padding-top: 5rem; padding-bottom: 5rem;">
-	<iframe width="840" height="472" src="https://www.youtube.com/embed/tphItc0RTpk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+	<div class="container" style=" margin: 0 auto; padding-top: 5rem; padding-bottom: 5rem;">
+		<iframe width="840" height="472" src="https://www.youtube.com/embed/tphItc0RTpk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
 	<div class="container" style="padding-bottom: 3rem;">
-<a class="waves-effect waves-light btn" href="live.html">Début</a>
-<a class="waves-effect waves-light btn" href="parametre.html" style="float:right;">suivant</a>
-</div>
-		<footer class="page-footer">
+		<a class="waves-effect waves-light btn" href="live.html">Début</a>
+		<a class="waves-effect waves-light btn" href="parametre.html" style="float:right;">suivant</a>
+	</div>
+	<footer class="page-footer">
 		<div class="container">
 			<div class="row">
 				<div class="col l6 s12">
@@ -45,7 +47,7 @@
 				<div class="col l4 offset-l2 s12">
 					<h5 class="white-text">Liens intéressants</h5>
 					<ul>
-						<li><a class="grey-text text-lighten-3" href="https://www.youtube.com/watch?v=myTWeyIzI5Y">Chaîne youtube les sondiers</a></li>
+						<li><a class="grey-text text-lighten-3" href="https://www.youtube.com/watch?v=myTWeyIzI5Y">Chaîne youtube "les sondiers"</a></li>
 						<li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
 						
 					</ul>
@@ -59,8 +61,14 @@
 			</div>
 		</div>
 	</footer>
-    <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<!--Import jQuery before materialize.js-->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	<script> 
+		$(document).ready(function(){
+			$('.sidenav').sidenav();
+		});
+	</script>
+
 </body>
 </html>
