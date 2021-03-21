@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<link rel="stylesheet" href="style.css">
+	<title>VCV-Rack</title>
+</head>
+<body>
+ <div class="navbar-fixed">
+  <nav>
+    <div class="nav-wrapper">
+     <a href="index.html" class="brand-logo">MAO LAMARTINE</a>
+     <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+     <ul class="right hide-on-med-and-down">
+      <li><a href="live.html">Live Ableton</a></li>
+      <li><a href="rack.html">VCV Rack</a></li>
+      <li><a href="reaper.html">Reapers</a></li>
+        <li><a href="muse.html">Musescore</a></li>
+    </ul>
+  </div>
+</nav>
+</div>
+<ul class="sidenav" id="mobile-demo">
+ <li><a href="live.html">Live Ableton</a></li>
+ <li><a href="rack.html">VCV Rack</a></li>
+  <li><a href="reaper.html">Reapers</a></li>
+    <li><a href="muse.html">Musescore</a></li>
+</ul>
+
+
+<div class="container">
+  <h2>Editeur de partition Musescore</h2>
+  <h5>Ecrivez votre musique</h5>
+  <p>(en construction)</p>
+</div>
+
+
+
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script> 
+ $(document).ready(function(){
+  $('.sidenav').sidenav();
+});
+</script>
+</body>
+</html>
